@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk Events</title>
+
+    <link rel="stylesheet" href="./css/q2a.css">
+</head>
+
+<body>
+    <header class="header">
+        <ul class="nav">
+            <a href="#">
+                <li class="nav-item active">OU Walking Club Admin Page</li>
+            </a>
+            <a href="#">
+                <li class="nav-item">Walk Events</li>
+            </a>
+            <a href="#">
+                <li class="nav-item">Other Events</li>
+            </a>
+            <a href="#">
+                <li class="nav-item">Membership</li>
+            </a>
+            <a href="#">
+                <li class="nav-item">News Items</li>
+            </a>
+            <a href="#">
+                <li class="nav-item">Announcements</li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="main">
+        <h1 class="walk-header">Walk Events</h1>
+
+        <form action="#" method="post" class="walk-form">
+            <div class="input-wrapper">
+                <label for="walk-name">Name of Walk</label>
+                <input type="text" name="walk-name" id="walk-name">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-dt">Date</label>
+                <input type="text" name="walk-dt" id="walk-dt">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-start">Start Time</label>
+                <input type="text" name="walk-start" id="walk-start">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-end">End Time</label>
+                <input type="text" name="walk-end" id="walk-end">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-meet">Meeting Point</label>
+                <input type="text" name="walk-meet" id="walk-meet">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-dist">Distance (km)</label>
+                <input type="text" name="walk-dist" id="walk-dist">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-leader">Name of Leader</label>
+                <input type="text" name="walk-leader" id="walk-leader">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-comment">Comments</label>
+                <input type="text" name="walk-comment" id="walk-comment">
+            </div>
+            <div class="input-wrapper">
+                <label for="walk-status">Status</label>
+                <input type="text" name="walk-status" id="walk-status">
+            </div>
+            <div class="input-wrapper input-wrapper-btn">
+                <button type="submit" class="btn btn-submit" id="btn-submit" onclick="submitForm();">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script>
+    function submitForm() {
+        alert("Document has been verified");
+    }
+</script>
+
+</html>
